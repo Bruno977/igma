@@ -1,9 +1,14 @@
-function App() {
+import { ThemeProvider } from "styled-components"
+import { defaultTheme } from "./theme/defaultTheme"
+import { GlobalStyle } from "./theme/global"
+import { Layout } from "./components/Layout"
 
+function App() {
   return (
-    <>
-      <h1>Hello Word!</h1>
-    </>
+    <ThemeProvider theme={defaultTheme}>
+      <GlobalStyle/>
+      <Layout/>
+    </ThemeProvider>
   )
 }
 
