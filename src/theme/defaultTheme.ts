@@ -1,5 +1,148 @@
 export const defaultTheme = {
+  lineHeight:{
+    xl: "175%",
+    lg: "150%",
+    md : "133%",
+    sm: "120%",
+    xs: "115%",
+    xxs:  "100%"
+  },
+  letterSpacing:  {
+    default: "0px",
+    sm: "-1px",
+    md: "-2px",
+    lg: "-3px"
+  },
+  fontSize: {
+    giant: "6rem",
+    display: "13.3rem",
+    xxxl: "4rem",
+    xxl: "3rem",
+    xl: "2.5rem",
+    lg: "2rem",
+    md: "1.5rem",
+    sm: "1.25rem",
+    xs: "1rem",
+    xxs: "0.875rem",
+    xxxs: "0.75rem"
+
+  },
+  borderRadius: { 
+    circle: "50%",
+    pill: "31.25rem",
+    lg: "1.5rem",
+    md: "1rem",
+    sm: "0.5rem",
+    none: "0rem",
+  },
+  borderWidth: {
+    heavy: "1px",
+    thick: "4px",
+    thin: "2px",
+    hairline: "1px",
+    none: "0px",
+  },
+  spacingInline: { 
+    xl: "5rem",
+    lg: "4rem",
+    md: "3rem",
+    sm: "2.5rem",
+    xs: "2rem",
+    xxs: "1.5rem",
+    xxxs: "1rem",
+    nano: "0.5rem",
+    quarck: "0.25rem"
+  },
+  spacingStack:{
+     giant: "12.5rem",
+     huge: "10rem",
+     xxxl : "7.5rem",
+     xxl : "5rem",
+     xl : "4rem",
+     lg: "3.5rem",
+     md: "3rem",
+     sm: "2.5rem",
+     xs: "2rem",
+     xxs: "1.5rem",
+     xxxs: "1rem",
+     nano: "0.5rem",
+     quarck: "0.25rem",
+  },
+  fontFamily: {
+    base: "'Plus Jakarta Sans', sans-serif",
+  },
+  fontWeight: { 
+    extrabold: "800",
+    bold: "700",
+    semibold: "600",
+    medium: "400",
+    regular: "300",
+  },
   colors:{
-    primary: "#fafafa"
+    primary: { 
+      light: "#F3C96F",
+      main: "#F1BC4B",
+      dark: "#A88334",
+      contrast: "#211E1E",
+      background: "#FDF4E3",
+    },
+    secondary: { 
+      light: "#F38F6F",
+      main: "#F1734B",
+      dark: "#A85034",
+      contrast: "#211E1E",
+      background: "#FDE9E3",
+    },
+    tertiary: { 
+      light: "#9E604C",
+      main: "#863920",
+      dark: "#5D2716",
+      contrast: "#F0EFEE",
+      background: "#F4E5E1",
+    },
+    error:{
+      light: "#EF5350",
+      main: "#D32F2F",
+      dark: "#C62828",
+      contrast: "#FFFFFF",
+      background: "#FFDDEE",
+    },
+    success:{
+      light: "#4CAF50",
+      main: "#2E7D32",
+      dark: "#1B5E20",
+      contrast: "#FFFFFF",
+      background: "#EDF7ED",
+    },
+    warning:{
+      light: "#FF9800",
+      main: "#ED6C02",
+      dark: "#E65100",
+      contrast: "#211E1E",
+      background: "#FFF4E5",
+    },
+    info: { 
+      light: "#03A9F4",
+      main: "#0288D1",
+      dark: "#01579B",
+      contrast: "#FFFFFF",
+      background: "#E5F6FD",
+    },
+    dark: { 
+      secondary: "#565454",
+      main: "#333333",
+      highlight: "#211E1E",
+      contrast: "#FFFFFF",
+      disabled: "#AEAEAE",
+    },
+    light: { 
+      secondary: "#F5F5F5",
+      main: "#EDEDED",
+      highlight: "#D6D5D5",
+      contrast: "#FFFFFF",
+    },
+    background: { 
+      1: "#ffffff",
+    },
   }
 }
