@@ -1,14 +1,15 @@
-import { IconUser } from '../../assets/icons/IconUser';
 import { LogoHeader } from '../../assets/icons/LogoHeader';
-import { HeaderContainer, Button } from './style';
+import { Avatar } from '../Avatar';
+import { HeaderContainer } from './style';
+type HeaderProps = {
+  animate: boolean;
+};
 
-export function Header() {
+export function Header({ animate }: HeaderProps) {
   return (
-    <HeaderContainer>
+    <HeaderContainer $animate={animate}>
       <LogoHeader />
-      <Button type="button">
-        <IconUser />
-      </Button>
+      <Avatar />
     </HeaderContainer>
   );
 }
