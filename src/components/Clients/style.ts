@@ -46,5 +46,8 @@ export const ContainerImages = styled.div`
   }
   @media screen and (max-width: 1024px) {
     grid-column: span 4;
+    > div {
+      justify-content: center;
+    }
   }
 `;
