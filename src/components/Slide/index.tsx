@@ -110,7 +110,7 @@ export function Slide() {
       ) : (
         <Slides>
           <SlideContainer>
-            <SlideWrapper time={18}>
+            <SlideWrapper time={28}>
               <SlideItem>
                 <img src={celular1} alt="" />
               </SlideItem>
@@ -150,7 +150,7 @@ export function Slide() {
             </SlideWrapper>
           </SlideContainer>
           <SlideContainer>
-            <SlideWrapper time={12}>
+            <SlideWrapper time={22}>
               <SlideItem>
                 <img src={celular4} alt="" />
               </SlideItem>
@@ -190,7 +190,7 @@ export function Slide() {
             </SlideWrapper>
           </SlideContainer>
           <SlideContainer>
-            <SlideWrapper time={16}>
+            <SlideWrapper time={26}>
               <SlideItem>
                 <img src={celular7} alt="" />
               </SlideItem>
@@ -230,7 +230,7 @@ export function Slide() {
             </SlideWrapper>
           </SlideContainer>
           <SlideContainer>
-            <SlideWrapper time={14}>
+            <SlideWrapper time={24}>
               <SlideItem>
                 <img src={celular10} alt="" />
               </SlideItem>
