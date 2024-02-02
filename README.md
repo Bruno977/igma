@@ -1,30 +1,44 @@
-# React + TypeScript + Vite
+#Igma
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Sobre o Projeto
+Para ver o projeto [Clique aqui!](https://igma-phi.vercel.app/)
 
-Currently, two official plugins are available:
+**Desafio técnico:** Realizar a produção de uma página web.
+**Empresa:** Igma - Desenvolvedor Front-end
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##Layout Mobile
 
-## Expanding the ESLint configuration
+![2024-02-02_16-07](https://github.com/Bruno977/igma/assets/47644815/30298977-6dbf-42ab-9786-b5f09c8ca4fc)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+##Layout Web
+![2024-02-02_16-08](https://github.com/Bruno977/igma/assets/47644815/620e95cb-2dc2-46a6-b32b-3cd6c5eda91e)
 
-- Configure the top-level `parserOptions` property like this:
+#Tecnologias Utilizadas
+- ReactJs - Vite
+- TypeScript
+- Styled Components
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+#Como executar o projeto
+
+```bash
+# Clonar repositório
+git clone https://github.com/Bruno977/igma.git
 ```
+```bash
+# Entrar na pasta do projeto
+cd igma
+```
+```bash
+# Instalar Dependências
+npm install
+```
+```bash
+# Executar projeto
+npm run dev
+```
+#Autor 
+[Bruno Rodrigues](https://www.linkedin.com/in/bruno-rodrigues-78416319b/)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+
