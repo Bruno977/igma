@@ -12,6 +12,16 @@ export function Newsletter() {
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+    const data = {
+      name: formData.get('name'),
+      email: formData.get('email'),
+    };
+    if (data.name === '' || data.email === '') {
+      alert('Preencha os Campos!');
+      return;
+    }
+    alert(`Nome: ${data.name} - Email: ${data.email}`);
   }
 
   return (
