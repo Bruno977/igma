@@ -138,10 +138,28 @@ export function Slide() {
               <SlideItem>
                 <img src={celular3} alt="" />
               </SlideItem>
+              <SlideItem>
+                <img src={celular1} alt="" />
+              </SlideItem>
+              <SlideItem>
+                <img src={celular2} alt="" />
+              </SlideItem>
+              <SlideItem>
+                <img src={celular3} alt="" />
+              </SlideItem>
             </SlideWrapper>
           </SlideContainer>
           <SlideContainer>
             <SlideWrapper time={12}>
+              <SlideItem>
+                <img src={celular4} alt="" />
+              </SlideItem>
+              <SlideItem>
+                <img src={celular5} alt="" />
+              </SlideItem>
+              <SlideItem>
+                <img src={celular6} alt="" />
+              </SlideItem>
               <SlideItem>
                 <img src={celular4} alt="" />
               </SlideItem>
@@ -200,10 +218,28 @@ export function Slide() {
               <SlideItem>
                 <img src={celular9} alt="" />
               </SlideItem>
+              <SlideItem>
+                <img src={celular7} alt="" />
+              </SlideItem>
+              <SlideItem>
+                <img src={celular8} alt="" />
+              </SlideItem>
+              <SlideItem>
+                <img src={celular9} alt="" />
+              </SlideItem>
             </SlideWrapper>
           </SlideContainer>
           <SlideContainer>
             <SlideWrapper time={14}>
+              <SlideItem>
+                <img src={celular10} alt="" />
+              </SlideItem>
+              <SlideItem>
+                <img src={celular11} alt="" />
+              </SlideItem>
+              <SlideItem>
+                <img src={celular12} alt="" />
+              </SlideItem>
               <SlideItem>
                 <img src={celular10} alt="" />
               </SlideItem>
