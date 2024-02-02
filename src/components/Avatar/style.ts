@@ -1,11 +1,15 @@
 import styled from 'styled-components';
 
-export const Button = styled.button`
+export const Button = styled.button<{ $isAuthenticated: boolean }>`
   height: 3rem;
   width: 3rem;
-  border: ${(props) => props.theme.borderWidth.thin} solid transparent;
+  ${(props) =>
+    !props.$isAuthenticated &&
+    `border: ${props.theme.borderWidth.thin} solid transparent;`}
+
   background-color: ${(props) => props.theme.colors.primary.main};
   border-radius: ${(props) => props.theme.borderRadius.pill};
+  outline: 0;
   cursor: pointer;
 
   transition-delay: 0s;
@@ -31,6 +35,10 @@ export const Button = styled.button`
     svg path {
       fill: ${(props) => props.theme.colors.dark.secondary};
     }
+  }
+  img {
+    border-radius: ${(props) => props.theme.borderRadius.pill};
+    overflow: hidden;
   }
   @media screen and (max-width: 1280px) {
     height: 2.5rem;
